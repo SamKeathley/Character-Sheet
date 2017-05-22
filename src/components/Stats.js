@@ -4,7 +4,13 @@ class Stats extends Component {
   render(){
     return(
       <div>
-        <h2> Stats content here</h2>
+      <form className="SkillsForm" action="" method="post">
+        <input type="number" name="" /><input type="text" />
+        <br />
+        <input type="number" name=""  /><input type="text" />
+        <br />
+        <input type="number" name=""  /><input type="text" />
+      </form>
       </div>
     )
   }
