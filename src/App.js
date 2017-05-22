@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import dotenv from 'dotenv';
 import './App.css';
+import CharacterPage from './components/CharacterPage';
 import Skills from './components/Skills';
 import Stats from './components/Stats';
 import Battle from './components/Battle';
@@ -13,7 +15,7 @@ class App extends Component {
         <div className="App-header">
           <h2>Character Sheet</h2>
         </div>
-        <TabLists />
+        <CharacterPage />
       </div>
     );
   }

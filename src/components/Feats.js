@@ -4,9 +4,9 @@ class Feats extends Component {
   render(){
     return(
       <div>
-      <form className="SkillsForm" action="" method="post">
-        <input type="text" name="" />
-        <input type="text" name="" />
+      <form className="FeatsForm" action="" method="post">
+        <input type="text" name="" placeholder="Assassinate" />
+        <input type="text" name="" placeholder="Magic Missle" />
       </form>
       </div>
     )
