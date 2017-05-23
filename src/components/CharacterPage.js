@@ -7,13 +7,19 @@ import Feats from './Feats';
 import TabLists from './TabLists';
 import Points from './Points';
 import Attributes from './Attributes';
+import Money from './Money';
+import '../css/CharacterPage.css';
 
 class CharacterPage extends Component {
   render(){
     return(
       <div>
+        <div className="Profile">
+          <img src="/" alt="avatar image" />
+        </div>
         <div className="Points">
           <Points />
+          <Money />
         </div>
         <div className="Attributes">
           <Attributes />

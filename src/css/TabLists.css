@@ -1,0 +1,11 @@
+ul li{
+  text-align: center;
+  list-style: none;
+  display: inline;
+  padding: 0 10px 0 10px;
+  border-right: black solid 1px;
+}
+
+.last ul li{
+  border-right: none;
+}

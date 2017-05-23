@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda|Metamorphous');
+
+body{
+  font-family: 'Merienda', cursive !important;
+}
+
+.icons {
+  list-style: none;
+  display: inline;
+  flex-direction: row;
+  float: right;
+  margin-top: auto;
+}

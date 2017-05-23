@@ -1,0 +1,20 @@
+.points p{
+  border-right: black solid 1px;
+  display: inline;
+}
+
+.points .exp{
+  border: none;
+}
+
+.PointsForm input[type=number]{
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+.end input[type=number]{
+  display: inline;
+  height: 20px;
+  width: 75px;
+}
