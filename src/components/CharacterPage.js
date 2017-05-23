@@ -9,13 +9,14 @@ import Points from './Points';
 import Attributes from './Attributes';
 import Money from './Money';
 import '../css/CharacterPage.css';
+import Betty from '../images/betty.jpg';
 
 class CharacterPage extends Component {
   render(){
     return(
       <div>
         <div className="Profile">
-          <img src="/" alt="avatar image" />
+          <img src={Betty} alt="avatar image" />
         </div>
         <div className="Points">
           <Points />

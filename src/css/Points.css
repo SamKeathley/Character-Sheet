@@ -1,9 +1,10 @@
-.points p{
+ .points p{
   border-right: black solid 1px;
   display: inline;
+  padding: 0 10px 0 10px;
 }
 
-.points .exp{
+.exp p{
   border: none;
 }
 

@@ -15,9 +15,7 @@ class TabLists extends Component {
             <Tab>Skills</Tab>
             <Tab>Stats</Tab>
             <Tab>Battle</Tab>
-          </TabList>
-          <TabList className="last">
-            <Tab>Feats/Spells</Tab>
+            <Tab className="last">Feats/Spells</Tab>
           </TabList>
 
           <TabPanel>

@@ -1,4 +1,4 @@
-ul li{
+.react-tabs__tab-list li{
   text-align: center;
   list-style: none;
   display: inline;
@@ -6,6 +6,10 @@ ul li{
   border-right: black solid 1px;
 }
 
-.last ul li{
+#react-tabs-6{
+  text-align: center;
+  list-style: none;
+  display: inline;
+  padding: 0 10px 0 10px;
   border-right: none;
 }
