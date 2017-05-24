@@ -4,15 +4,6 @@ body{
   font-family: 'Merienda', cursive !important;
 }
 
-.icons {
-  list-style: none;
-  display: inline;
-  flex-direction: row;
-  float: right;
-  margin-top: auto;
-  border: none;
-}
-
 img{
   width: 100px;
   height: 100px;

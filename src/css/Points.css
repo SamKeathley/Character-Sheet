@@ -1,21 +1,32 @@
+.points{
+  float: right;
+  vertical-align: text-top;
+}
+
+.points #exp{
+  border-right: none;
+}
+
  .points p{
   border-right: black solid 1px;
   display: inline;
   padding: 0 10px 0 10px;
 }
 
-.exp p{
-  border: none;
-}
-
 .PointsForm input[type=number]{
   display: inline;
   height: 20px;
   width: 20px;
+  background-color: #dbc99d;
+  border: none;
+  margin-right: 10px;
+  border-radius: 30%;
 }
 
-.end input[type=number]{
+.points #end{
   display: inline;
   height: 20px;
   width: 75px;
+  background-color: #dbc99d;
+  border-radius: 10%;
 }
