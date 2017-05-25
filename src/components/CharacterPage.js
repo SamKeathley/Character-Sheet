@@ -1,10 +1,6 @@
 import React, {Component} from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import Skills from './Skills';
-import Stats from './Stats';
-import Battle from './Battle';
-import Feats from './Feats';
-import TabLists from './TabLists';
+import Header from './Header';
+import TabPane from './TabPane';
 import Points from './Points';
 import Attributes from './Attributes';
 import Money from './Money';
@@ -15,23 +11,48 @@ import HealthBar from './HealthBar';
 class CharacterPage extends Component {
   render(){
     return(
-      <div>
-        <div className="Profile">
-          <img src={Betty} alt="avatar image" />
-          <br/>
-          <Points />
-          <HealthBar percent={20} />
-          <p>24 of 120 HP remaining</p>
+      <div className="character-page container">
+        <Header />
+        <div className="avatar-section row">
+          <div className="col-6">
+            <div className="container">
+              <div className="row">
+                <div className="col-12">
+                  <h2>Character Name</h2>
+                </div>
+                <div className="col-12">
+                  <img src={Betty} alt="avatar" />
+                </div>
+                <div className="col-12">
+                  <HealthBar percent={20} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-6">
+            <div className="row">
+              <div className="col">
+                <Points />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">
+                <Money />
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="Points">
-          <br />
-          <Money />
-        </div>
-        <div className="Attributes">
-          <Attributes />
-        </div>
-        <div className="TabLists">
-          <TabLists />
+        <div className="rest-of-the-page container">
+          <div className="row">
+            <div className="col">
+              <Attributes />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col well">
+              <TabPane />
+            </div>
+          </div>
         </div>
       </div>
     )

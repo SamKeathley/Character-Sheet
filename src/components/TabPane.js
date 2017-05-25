@@ -4,14 +4,11 @@ import Skills from './Skills';
 import Stats from './Stats';
 import Battle from './Battle';
 import Feats from './Feats';
-import '../css/TabLists.css';
+import '../css/TabPane.css';
 
-class TabLists extends Component {
+class TabPane extends Component {
   render(){
     return(
-      <div className="containter tab-container">
-      <div className="row">
-        <div className="col-xs-8">
           <Tabs>
             <TabList>
               <Tab>Skills</Tab>
@@ -32,11 +29,8 @@ class TabLists extends Component {
               <Feats />
             </TabPanel>
           </Tabs>
-          </div>
-        </div>
-      </div>
     )
   }
 }
 
-export default TabLists;
+export default TabPane;
