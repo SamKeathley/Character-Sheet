@@ -21,7 +21,7 @@ class CharacterPage extends Component {
           <br/>
           <Points />
           <HealthBar percent={20} />
-          <p>24 of 120 remaining</p>
+          <p>24 of 120 HP remaining</p>
         </div>
         <div className="Points">
           <br />
