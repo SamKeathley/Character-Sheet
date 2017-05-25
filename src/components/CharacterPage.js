@@ -17,9 +17,11 @@ class CharacterPage extends Component {
       <div>
         <div className="Profile">
           <img src={Betty} alt="avatar image" />
+          <br/>
+          <Points />
         </div>
         <div className="Points">
-          <Points />
+          <br />
           <Money />
         </div>
         <div className="Attributes">

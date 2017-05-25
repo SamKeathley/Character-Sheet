@@ -9,28 +9,31 @@ import '../css/TabLists.css';
 class TabLists extends Component {
   render(){
     return(
-      <div className="tab-container">
-        <Tabs>
-          <TabList>
-            <Tab>Skills</Tab>
-            <Tab>Stats</Tab>
-            <Tab>Battle</Tab>
-            <Tab className="last">Feats/Spells</Tab>
-          </TabList>
-
-          <TabPanel>
-            <Skills />
-          </TabPanel>
-          <TabPanel>
-            <Stats />
-          </TabPanel>
-          <TabPanel>
-            <Battle />
-          </TabPanel>
-          <TabPanel>
-            <Feats />
-          </TabPanel>
-        </Tabs>
+      <div className="containter tab-container">
+      <div className="row">
+        <div className="col-xs-8">
+          <Tabs>
+            <TabList>
+              <Tab>Skills</Tab>
+              <Tab>Stats</Tab>
+              <Tab>Battle</Tab>
+              <Tab className="last">Feats/Spells</Tab>
+            </TabList>
+            <TabPanel>
+              <Skills />
+            </TabPanel>
+            <TabPanel>
+              <Stats />
+            </TabPanel>
+            <TabPanel>
+              <Battle />
+            </TabPanel>
+            <TabPanel>
+              <Feats />
+            </TabPanel>
+          </Tabs>
+          </div>
+        </div>
       </div>
     )
   }

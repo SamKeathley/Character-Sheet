@@ -8,11 +8,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>Character Sheet</h2>
-          <ul className="icons">
-            <li><i className="fa fa-plus fa-lg" aria-hidden="true"></i></li>
-            <li><i className="fa fa-pencil fa-lg" aria-hidden="true"></i></li>
-          </ul>
+          <h2>Character Name</h2>
+
         </div>
         <CharacterPage />
       </div>
@@ -21,3 +18,8 @@ class App extends Component {
 }
 
 export default App;
+
+<ul className="icons">
+  <li><i className="fa fa-plus fa-lg" aria-hidden="true"></i></li>
+  <li><i className="fa fa-pencil fa-lg" aria-hidden="true"></i></li>
+</ul>
