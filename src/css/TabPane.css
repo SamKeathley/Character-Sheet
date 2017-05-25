@@ -13,3 +13,7 @@
   padding: 0 10px 0 10px;
   border-right: none;
 }
+
+.react-tabs__tab-list{
+  padding-top: 12px;
+}

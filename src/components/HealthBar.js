@@ -9,6 +9,7 @@ const HealthBar = ({percent}) => {
   return (
     <div className={`progress-bar-container default`}>
         <div className="progress-bar-inner" style={{width: `${percent}%`}}>{percent}%</div>
+        <p>20 of 120 HP Remaining</p>
     </div>
   );
 }

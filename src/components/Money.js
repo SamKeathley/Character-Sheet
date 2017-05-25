@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Money.css';
+import Gold from '../images/Gold-icon.png'
 
 const Money = ({money}) => {
   return(
@@ -7,7 +8,7 @@ const Money = ({money}) => {
       <div className="row">
         <div className="col-6">
           <form className="MoneyForm" action="" method="post">
-            <input type="number" name="Gold" placeholder="Gold" /><p>Currency</p>
+          <img src={Gold} alt="money" className="gold" /> <br/><input type="number" name="Gold" placeholder="Gold" />
           </form>
         </div>
       </div>

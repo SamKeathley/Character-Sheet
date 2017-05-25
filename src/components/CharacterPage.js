@@ -18,7 +18,7 @@ class CharacterPage extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-12">
-                  <h2>Character Name</h2>
+                  <h2>Betty</h2>
                 </div>
                 <div className="col-12">
                   <img src={Betty} alt="avatar" />
