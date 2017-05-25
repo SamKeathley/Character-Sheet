@@ -5,6 +5,7 @@
   height: 3vh;
   text-align: center;
   vertical-align: middle !important;
+  margin-top: 10px;
 }
 
 .progress-bar-inner {

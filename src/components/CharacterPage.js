@@ -9,7 +9,7 @@ import Points from './Points';
 import Attributes from './Attributes';
 import Money from './Money';
 import '../css/CharacterPage.css';
-import Betty from '../images/betty.jpg';
+import Betty from '../images/betty.png';
 import HealthBar from './HealthBar';
 
 class CharacterPage extends Component {
