@@ -7,5 +7,7 @@ The goal:
 Future features:
 
 -"Party mode," where the DM can view all of the campaign members sheets
+
 -Spell/feature library
+
 -Equipment management
