@@ -2,7 +2,7 @@ body {
   background: #efeee6;
 }
 
-/*.icons {
+.icons {
   list-style: none;
   display: inline;
   flex-direction: row;
@@ -10,4 +10,4 @@ body {
   margin-top: auto;
   border: none;
   vertical-align: top;
-}*/
+}

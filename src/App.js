@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import dotenv from 'dotenv';
+//import dotenv from 'dotenv';
 import './App.css';
 import CharacterPage from './components/CharacterPage';
 
@@ -14,8 +14,9 @@ class App extends Component {
 }
 
 export default App;
-
+/*
 <ul className="icons">
   <li><i className="fa fa-plus fa-lg" aria-hidden="true"></i></li>
   <li><i className="fa fa-pencil fa-lg" aria-hidden="true"></i></li>
 </ul>
+*/

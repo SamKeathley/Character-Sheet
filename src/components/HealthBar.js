@@ -1,18 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../css/HealthBar.css'
 
 // <ProgressBar percent={50%} />
 
-class HealthBar extends Component {
-  render() {
-      let percent = Math.round(this.props.percent);
+const HealthBar = ({percent}) => {
+  percent = Math.round(percent);
 
-      return (
-        <div className={`progress-bar-container default`}>
-            <div className="progress-bar-inner" style={{width: `${percent}%`}}>{percent}%</div>
-        </div>
-      );
-  }
+  return (
+    <div className={`progress-bar-container default`}>
+        <div className="progress-bar-inner" style={{width: `${percent}%`}}>{percent}%</div>
+    </div>
+  );
 }
 
 export default HealthBar;
