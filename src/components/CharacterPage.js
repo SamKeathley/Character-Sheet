@@ -10,6 +10,7 @@ import Attributes from './Attributes';
 import Money from './Money';
 import '../css/CharacterPage.css';
 import Betty from '../images/betty.jpg';
+import HealthBar from './HealthBar';
 
 class CharacterPage extends Component {
   render(){
@@ -19,6 +20,8 @@ class CharacterPage extends Component {
           <img src={Betty} alt="avatar image" />
           <br/>
           <Points />
+          <HealthBar percent={20} />
+          <p>24 of 120 remaining</p>
         </div>
         <div className="Points">
           <br />
