@@ -12,3 +12,7 @@ body {
   border: none;
   vertical-align: top;
 }
+
+.col{
+  padding-top: 2px;
+}

@@ -9,3 +9,29 @@ img{
   width: 100px;
   height: 100px;
 }
+
+.character-page{
+  margin-top: 2em;
+}
+
+
+.col-1{
+  margin-right: 1em;
+}
+
+.header{
+  margin-bottom: 1em;
+}
+
+.AttributesForm{
+  padding-top: 2em;
+}
+
+.AttributesForm input{
+  max-width: 5em;
+  margin-right: 1em;
+  background-color: #dbc99d;
+  border: none;
+  border-radius: 1em;
+  padding-left: 6px;
+}

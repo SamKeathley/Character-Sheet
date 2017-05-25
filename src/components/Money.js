@@ -6,11 +6,9 @@ const Money = ({money}) => {
   return(
     <div className="container">
       <div className="row">
-        <div className="col-6">
-          <form className="MoneyForm" action="" method="post">
-          <img src={Gold} alt="money" className="gold" /> <br/><input type="number" name="Gold" placeholder="Gold" />
-          </form>
-        </div>
+        <form className="MoneyForm" action="" method="post">
+        <img src={Gold} alt="money" className="goldPic" /><input type="number" name="Gold" placeholder="Gold" />
+        </form>
       </div>
     </div>
   )

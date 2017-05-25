@@ -4,11 +4,10 @@
   width: 20px;
   background-color: #dbc99d;
   border: none;
-  margin: 0 10px 10px 10px;
   border-radius: 30%;
   align-items: center;
 }
 
-.SkillsForm p{
-  text-align: justify;
+#SkillsForm{
+  margin: 0 auto;
 }
