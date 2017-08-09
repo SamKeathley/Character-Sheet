@@ -1,6 +1,17 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const Header = () => {
+class Header extends Component {
+  constructor(props){
+    super(props);
+    this.state={
+      editMode: false
+    };
+    this.toggleEditMode= this.toggleEditMode.bind(this);
+  }
+
+  render(){
+
+
     return(
         <div className="header row justify-content-between">
           <div className="col-1">
@@ -10,10 +21,23 @@ const Header = () => {
             <h3>Player Name</h3>
           </div>
           <div className="col-1">
-            <span><i className="fa fa-pencil fa-lg" aria-hidden="true"></i></span>
+            <span onClick={this.toggleEditMode}><i className="fa fa-pencil fa-lg" aria-hidden="true"></i></span>
+            {this.state.editMode ? (
+              <div>Edit Mode</div>
+            ) : (
+              <div>Read Mode</div>
+            )}
           </div>
         </div>
     );
+  }
+
+  toggleEditMode(){
+    this.setState({
+      editMode: !this.editMode
+    })
+    console.log('Did it');
+  }
 }
 
 export default Header;

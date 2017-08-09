@@ -6,9 +6,12 @@ class Battle extends Component {
       <div>
       <form className="SkillsForm" action="" method="post">
         <input type="number" name="attk" /><p>Attack Bonus</p>
-        <input type="number" name="will"  /><p>Will Save</p>
-        <input type="number" name="reflex"  /><p>Reflex Save</p>
-        <input type="number" name="fort"  /><p>Fortitude Save</p>
+        <input type="number" /><p>Strength Save</p>
+        <input type="number" /> <p>Dexterity Save</p>
+        <input type="number" /> <p>Constitution Save</p>
+        <input type="number" /> <p>Intellegence Save</p>
+        <input type="number" /> <p>Wisdom Save</p>
+        <input type="number" /> <p>Charisma Save</p>
       </form>
       </div>
     )
