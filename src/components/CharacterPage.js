@@ -9,10 +9,25 @@ import Betty from '../images/betty.png';
 import HealthBar from './HealthBar';
 
 class CharacterPage extends Component {
+  constructor(props){
+    super(props);
+    this.state={
+      editMode: false
+    };
+    this.toggleEditMode= this.toggleEditMode.bind(this);
+  }
+
+  toggleEditMode(){
+    this.setState({
+      editMode: !this.editMode
+    })
+    console.log('Did it');
+  }
+
   render(){
     return(
       <div className="character-page container">
-        <Header />
+        <Header toggleEditMode={this.toggleEditMode} editMode={this.state.editMode} />
         <div className="avatar-section row">
           <div className="col-6">
             <div className="container">
