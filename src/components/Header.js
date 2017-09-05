@@ -2,6 +2,12 @@ import React, {Component} from 'react';
 
 class Header extends Component {
 
+  handleKeyPress(event) {
+    if(event.charCode===13){
+      console.log('Enter clicked!!!');
+    }
+  }
+
   render(){
     return(
         <div className="header row justify-content-between">
@@ -10,8 +16,8 @@ class Header extends Component {
           </div>
           <div className="col-6">
             {this.props.editMode ? (
-              <form onSubmit={this.props.changePlayerName}>
-                <input type="text" />
+              <form onSubmit={this.props.handleKeyPress}>
+                <input type="text" onChange={this.props.handleChange}/>
               </form>
             ) : (
               <h3>Player Name</h3>

@@ -12,9 +12,14 @@ class CharacterPage extends Component {
   constructor(props){
     super(props);
     this.state={
+      character: {
+        name: "Betty",
+        lvl: "5"
+    },
       editMode: false
     };
     this.toggleEditMode= this.toggleEditMode.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
 
   toggleEditMode(){
@@ -23,6 +28,10 @@ class CharacterPage extends Component {
     })
     console.log('Did it');
   }
+
+  handleChange(event) {
+   this.setState({value: event.target.value});
+ }
 
   render(){
     return(
